@@ -1,0 +1,162 @@
+html {
+    display: block;
+}
+
+body{
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    background-color: #ffa07a;
+    font-size: 16px;
+}
+
+nav {
+    background-color: #008080;
+    padding-top: 1rem;
+    color: lightsalmon;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: underline;
+
+}
+
+nav li {
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    color: #ffa07a;
+    display: inline-block;
+}
+
+.frontword {
+    height: 30rem;
+    padding-top: 1rem;
+    background-position: center;
+}
+
+.frontword h1 {
+    color: coral;
+    font-size: 2rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: rgba(0.5,0.5,0.5,0.5);
+    text-align: center;
+}
+
+#events h1 {
+    margin-left: 1rem;
+    color: yellow;
+}
+
+#events p {
+    margin-left: 1rem;
+    color: white;
+}
+
+.event-images {
+    margin: 4rem auto;
+}
+
+.event-images img {
+    width: 30%;
+    margin: 1.5%;
+}
+
+.result-word {
+    color: yellow;
+    height: 20rem;
+    background-color: #008080;
+    padding: 0 1rem;
+    padding-top: 1rem;
+}
+
+.result-word h1 {
+    font-size: 2.5rem;
+}
+
+.result-images {
+    margin: 4rem auto;
+}
+
+.result-images img {
+    width: 30%;
+    margin: 1.5%;
+}
+
+#restaurants h1 {
+    text-align: center;
+    color: yellow;
+    font-size: 2rem;
+}
+
+
+#restaurants img{
+    margin: auto;
+    height: auto;
+    width: 50%;
+    display: block;
+}
+
+.end-nav {
+    background-color: #008080;
+    padding-top: 1rem;
+    color: lightsalmon;
+}
+
+.end-nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+.end-nav a {
+    text-decoration: underline;
+
+}
+
+.end-nav li {
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    color: #ffa07a;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1048px) {
+    .event-images img,
+    .result-images img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 222px) and (max-width: 640px) {
+    nav li,
+    .end-nav li {
+        display: block;
+        text-align: center;
+    }
+
+    .frontword h1{
+        margin-top: 2rem;
+    }
+
+    .frontword {
+        max-height: 230px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .result-word h1 {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .result-word h1 {
+        font-size: 1rem;
+    }
+}
